@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World · My Blog</title>
+  <meta name="description" content="The first post on your new blog.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=JetBrains+Mono:wght@400&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/css/main.6e715c95b137a8a576e4fb94d2ca274fa2de2f1210b55c09d806d7123fab9c15.css">
+  <link rel="icon" href="/favicon.ico">
+  <script>
+    (function () {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="nav-title" href="/">My Blog</a>
+      <div class="nav-right">
+        <ul class="nav-links">
+          
+          <li><a href="/posts/">Posts</a></li>
+          
+          <li><a href="/tags/">Tags</a></li>
+          
+          <li><a href="/categories/">Categories</a></li>
+          
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <div class="lightbox" id="lightbox"><img id="lightbox-img" src="" alt=""></div>
+
+  <main class="site-main">
+    
+<div class="page-layout">
+  <article class="prose">
+    <header class="post-header">
+      
+      <h1>Hello World</h1>
+      <p class="post-description">The first post on your new blog.</p>
+      <div class="post-meta">
+        <time>2026-06-19</time>
+        · 1 min read
+         · <a href="/tags/welcome/">welcome</a>
+      </div>
+    </header>
+    <h2 id="welcome">Welcome</h2>
+<p>This is your first post. Edit or delete it, then start writing.</p>
+<p>You can use <strong>bold</strong>, <em>italic</em> (renders in the accent colour), and <code>inline code</code>.</p>
+<blockquote>
+<p>Blockquotes get a terracotta left border and render in Playfair Display italic.</p>
+</blockquote>
+<h2 id="code">Code</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="s2">&#34;Hello, world!&#34;</span>
+</span></span></code></pre></div><h2 id="highlight">Highlight</h2>
+<p>Use <mark>double equals</mark> to highlight a word or phrase inline.</p>
+<h2 id="footnotes">Footnotes</h2>
+<p>This theme supports footnotes.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>They appear at the bottom of the page, auto-linked.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  </article>
+
+  
+  <aside class="toc">
+    <p class="toc-label">Contents</p>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#welcome">Welcome</a></li>
+    <li><a href="#code">Code</a></li>
+    <li><a href="#highlight">Highlight</a></li>
+    <li><a href="#footnotes">Footnotes</a></li>
+  </ul>
+</nav>
+  </aside>
+  
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      © 2026 Your Name
+      · <a href="https://github.com/your-github" target="_blank" rel="noopener">GitHub</a>
+      · <a href="https://www.youtube.com/@yourchannel" target="_blank" rel="noopener">YouTube</a>
+    </p>
+  </footer>
+
+  
+  <script src="/js/main.a1d9a31fbdeb3c60e815a7bef5c4d4877a6b6d374f5a11a20563e4bd55233d9e.js" defer></script>
+</body>
+</html>

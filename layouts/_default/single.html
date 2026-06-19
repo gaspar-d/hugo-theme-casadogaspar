@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="page-layout">
+  <article class="prose">
+    <header class="post-header">
+      {{ with .Params.featuredImage }}
+      <img class="post-cover" src="{{ . }}" alt="{{ $.Title }}">
+      {{ end }}
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="post-description">{{ . }}</p>{{ end }}
+      <div class="post-meta">
+        <time>{{ .Date.Format site.Params.dateFormat }}</time>
+        · {{ .ReadingTime }} min read
+        {{ range .Params.tags }} · <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/">{{ . }}</a>{{ end }}
+      </div>
+    </header>
+    {{ .Content }}
+  </article>
+
+  {{ if .TableOfContents }}
+  <aside class="toc">
+    <p class="toc-label">Contents</p>
+    {{ .TableOfContents }}
+  </aside>
+  {{ end }}
+</div>
+{{ end }}

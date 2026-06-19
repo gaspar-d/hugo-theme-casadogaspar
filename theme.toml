@@ -1,0 +1,11 @@
+name        = "Casa do Gaspar"
+license     = "MIT"
+licenselink = "https://github.com/gaspar-d/hugo-theme-casadogaspar/blob/main/LICENSE"
+description = "A warm, editorial Hugo theme with Playfair Display + DM Sans typography, dark mode, and a sticky ToC."
+homepage    = "https://github.com/gaspar-d/hugo-theme-casadogaspar"
+tags        = ["blog", "minimal", "dark", "light", "toc", "responsive"]
+min_version = "0.128.0"
+
+[author]
+  name    = "Diogo Gaspar"
+  homepage = "https://casadogaspar.pages.dev"

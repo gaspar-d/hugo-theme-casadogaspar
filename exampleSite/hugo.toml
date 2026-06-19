@@ -1,0 +1,45 @@
+baseURL            = "https://example.com/"
+locale             = "en"
+defaultContentLanguage = "en"
+title              = "My Blog"
+
+[params]
+description = "A clean, editorial Hugo blog."
+author      = "Your Name"
+dateFormat  = "2006-01-02"
+avatarURL   = "/images/avatar.png"
+
+[params.social]
+github  = "your-github"
+youtube = "https://www.youtube.com/@yourchannel"
+
+[menu]
+[[menu.main]]
+identifier = "posts"
+name       = "Posts"
+url        = "/posts/"
+weight     = 1
+[[menu.main]]
+identifier = "tags"
+name       = "Tags"
+url        = "/tags/"
+weight     = 2
+[[menu.main]]
+identifier = "categories"
+name       = "Categories"
+url        = "/categories/"
+weight     = 3
+
+[markup]
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark.extensions.extras.mark]
+enable = true
+
+[taxonomies]
+tag      = "tags"
+category = "categories"
+
+[outputs]
+home = ["HTML", "RSS"]
