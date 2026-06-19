@@ -200,4 +200,4 @@ Reference images by filename only — no path needed:
 
 ## License
 
-MIT
+[MIT](LICENSE) — free to use, modify, and distribute, with or without attribution. See the `LICENSE` file for the full text.

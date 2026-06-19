@@ -47,11 +47,11 @@
 (function () {
   var lightbox = document.getElementById('lightbox');
   var lightboxImg = document.getElementById('lightbox-img');
-  if (!lightbox) return;
+  if (!lightbox || !lightboxImg) return;
 
-  document.querySelectorAll('.prose img').forEach(function (img) {
+  document.querySelectorAll('.prose img:not(.post-cover)').forEach(function (img) {
     img.addEventListener('click', function () {
-      lightboxImg.src = img.src;
+      lightboxImg.src = img.getAttribute('src');
       lightboxImg.alt = img.alt;
       lightbox.classList.add('open');
     });
@@ -59,9 +59,10 @@
 
   function close() { lightbox.classList.remove('open'); }
 
+  lightboxImg.addEventListener('click', function (e) { e.stopPropagation(); });
   lightbox.addEventListener('click', close);
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') close();
+    if (e.key === 'Escape' && lightbox.classList.contains('open')) close();
   });
 })();
 

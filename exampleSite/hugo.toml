@@ -2,6 +2,7 @@ baseURL            = "https://example.com/"
 locale             = "en"
 defaultContentLanguage = "en"
 title              = "My Blog"
+theme              = "hugo-theme-casadogaspar"
 
 [params]
 description = "A clean, editorial Hugo blog."

@@ -250,6 +250,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* Highlight ==text== */
 .prose mark {
+  background: rgba(196, 114, 90, 0.18);
   background: color-mix(in srgb, var(--color-accent) 18%, transparent);
   color: inherit;
   border-radius: 2px;
@@ -373,8 +374,9 @@ img { max-width: 100%; height: auto; display: block; }
   border-radius: 6px;
   margin: 28px 0;
   border: 1px solid var(--color-border);
-  cursor: zoom-in;
 }
+
+.prose img:not(.post-cover) { cursor: zoom-in; }
 
 /* Lightbox */
 .lightbox {
