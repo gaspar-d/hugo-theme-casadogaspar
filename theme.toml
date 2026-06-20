@@ -3,9 +3,11 @@ license     = "MIT"
 licenselink = "https://github.com/gaspar-d/hugo-theme-casadogaspar/blob/main/LICENSE"
 description = "A warm, editorial Hugo theme with Playfair Display + DM Sans typography, dark mode, and a sticky ToC."
 homepage    = "https://github.com/gaspar-d/hugo-theme-casadogaspar"
-tags        = ["blog", "minimal", "dark", "light", "toc", "responsive"]
+demosite    = "https://casadogaspar.pages.dev"
+tags        = ["blog", "minimal", "responsive", "dark", "light", "toc", "syntax-highlighting"]
+features    = ["blog", "dark mode", "light mode", "table of contents", "syntax highlighting", "responsive", "rss"]
 min_version = "0.128.0"
 
 [author]
-  name    = "Diogo Gaspar"
+  name     = "Diogo Gaspar"
   homepage = "https://casadogaspar.pages.dev"

@@ -4,7 +4,7 @@ A warm, editorial Hugo theme. Clean typography, minimal chrome, sticky table of 
 
 **Font pairing:** Playfair Display (serif, titles + italic accents) · DM Sans (body) · JetBrains Mono (code)
 
-![Theme preview — dark and light modes side by side](screenshots/preview.png)
+![Theme preview — dark and light modes side by side](https://raw.githubusercontent.com/gaspar-d/hugo-theme-casadogaspar/main/screenshots/preview.png)
 
 [![Hugo](https://img.shields.io/badge/Hugo-v0.128%2B-FF4088?logo=hugo&logoColor=white)](https://gohugo.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
