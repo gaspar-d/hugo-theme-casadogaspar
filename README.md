@@ -5,6 +5,8 @@ A warm, editorial Hugo theme. Clean typography, minimal chrome, sticky table of 
 **Font pairing:** Playfair Display (serif, titles + italic accents) · DM Sans (body) · JetBrains Mono (code)  
 **Requires:** Hugo v0.128.0+ (extended not required)
 
+![Theme preview — dark and light modes side by side](screenshots/preview.png)
+
 ---
 
 ## Installation
