@@ -1,4 +1,4 @@
-# hugo-theme-casadogaspar
+# Casa do Gaspar -- a theme for Hugo
 
 A warm, editorial Hugo theme. Clean typography, minimal chrome, sticky table of contents, dark mode with a toggle, and image lightbox out of the box.
 
