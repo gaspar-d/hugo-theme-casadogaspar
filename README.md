@@ -22,11 +22,17 @@ You need [Hugo](https://gohugo.io/installation/) installed on your machine. The 
 # macOS
 brew install hugo
 
+# Windows
+winget install Hugo.Hugo
+
+# Linux (Debian/Ubuntu)
+sudo apt install hugo
+
 # verify
 hugo version
 ```
 
-For other platforms see the [Hugo installation docs](https://gohugo.io/installation/).
+For other package managers and platforms see the [Hugo installation docs](https://gohugo.io/installation/).
 
 ---
 
