@@ -2,10 +2,14 @@
 
 A warm, editorial Hugo theme. Clean typography, minimal chrome, sticky table of contents, dark mode with a toggle, and image lightbox out of the box.
 
-**Font pairing:** Playfair Display (serif, titles + italic accents) · DM Sans (body) · JetBrains Mono (code)  
-**Requires:** Hugo v0.128.0+ (extended not required)
+**Font pairing:** Playfair Display (serif, titles + italic accents) · DM Sans (body) · JetBrains Mono (code)
 
 ![Theme preview — dark and light modes side by side](screenshots/preview.png)
+
+[![Hugo](https://img.shields.io/badge/Hugo-v0.128%2B-FF4088?logo=hugo&logoColor=white)](https://gohugo.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![No npm](https://img.shields.io/badge/build-no_npm-lightgrey)](https://gohugo.io)
+[![Google Fonts](https://img.shields.io/badge/fonts-Google_Fonts-4285F4?logo=google&logoColor=white)](https://fonts.google.com)
 
 ---
 
@@ -198,8 +202,3 @@ Reference images by filename only — no path needed:
 | Task lists | `- [x]` / `- [ ]` checkboxes |
 | RSS | Auto-generated at `/index.xml` |
 
----
-
-## License
-
-[MIT](LICENSE) — free to use, modify, and distribute, with or without attribution. See the `LICENSE` file for the full text.
