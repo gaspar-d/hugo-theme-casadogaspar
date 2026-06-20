@@ -10,6 +10,23 @@ A warm, editorial Hugo theme. Clean typography, minimal chrome, sticky table of 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![No npm](https://img.shields.io/badge/build-no_npm-lightgrey)](https://gohugo.io)
 [![Google Fonts](https://img.shields.io/badge/fonts-Google_Fonts-4285F4?logo=google&logoColor=white)](https://fonts.google.com)
+[![Live demo](https://img.shields.io/badge/demo-casadogaspar.pages.dev-c4725a)](https://casadogaspar.pages.dev)
+
+---
+
+## Requirements
+
+You need [Hugo](https://gohugo.io/installation/) installed on your machine. The minimum version is **v0.128.0** (standard edition — extended is not required).
+
+```bash
+# macOS
+brew install hugo
+
+# verify
+hugo version
+```
+
+For other platforms see the [Hugo installation docs](https://gohugo.io/installation/).
 
 ---
 
